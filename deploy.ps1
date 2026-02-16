@@ -1,5 +1,5 @@
 # Git deployment script
-$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Continue'
 
 # Get the script directory
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -30,7 +30,10 @@ git branch -M main
 
 # Add remote
 Write-Host "Adding remote..."
-git remote remove origin 2>&1 | Out-Null
+$remotes = git remote 2>&1
+if ($remotes -contains 'origin') {
+    git remote remove origin 2>&1 | Out-Null
+}
 git remote add origin https://github.com/kamandaragasafli/bariyer.git 2>&1 | Out-Null
 
 # Push
