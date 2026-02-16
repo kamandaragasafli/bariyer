@@ -1,0 +1,67 @@
+.logo-container {
+  display: inline-block;
+}
+
+.logo-svg {
+  width: 200px;
+  height: 80px;
+  max-width: 100%;
+}
+
+.logo-text-main {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  fill: #000000;
+  letter-spacing: 2px;
+}
+
+.logo-text-tagline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  fill: #000000;
+  letter-spacing: 1.5px;
+}
+
+/* Dark theme: firuzəyi + gümüşü */
+.logo-container.dark .logo-svg {
+  color: #61BBCA;
+}
+
+/* Light theme üçün də firuzəyi rəng */
+.logo-svg {
+  color: #61BBCA;
+}
+
+.logo-container.dark .logo-text-main,
+.logo-container.dark .logo-text-tagline {
+  fill: #ffffff;
+}
+
+.logo-container.dark .logo-svg .logo-circle,
+.logo-container.dark .logo-svg .logo-line {
+  stroke: #d4d4d8;
+}
+
+.logo-container.dark .logo-svg .logo-bar,
+.logo-container.dark .logo-svg .sound-wave-left rect,
+.logo-container.dark .logo-svg .sound-wave-right rect {
+  fill: #61BBCA;
+  stroke: none;
+}
+
+@media (max-width: 768px) {
+  .logo-svg {
+    width: 160px;
+    height: 64px;
+  }
+  
+  .logo-text-main {
+    font-size: 14px;
+  }
+  
+  .logo-text-tagline {
+    font-size: 8px;
+  }
+}
