@@ -30,7 +30,10 @@ git branch -M main
 
 # Add remote
 Write-Host "Adding remote..."
-git remote remove origin 2>&1 | Out-Null
+$existingRemote = git remote get-url origin 2>&1
+if ($LASTEXITCODE -eq 0) {
+    git remote remove origin 2>&1 | Out-Null
+}
 git remote add origin https://github.com/kamandaragasafli/bariyer.git
 
 # Push
