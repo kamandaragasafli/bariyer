@@ -10,7 +10,7 @@ function About() {
         </div>
         <div className="about-content">
           <p className="about-text">
-            BARIYER PM Azərbaycanda peşəkar səs və akustik izolyasiya həlləri təqdim edir. Mənzillərdən sinema zalları, studiolar, restoran və karaoke otaqlarına qədər hər layihədə fərdi yanaşma və keyfiyyətli materiallarla işləyirik.
+            BARİYER PM Azərbaycanda peşəkar səs və akustik izolyasiya həlləri təqdim edir. Mənzillərdən sinema zalları, studiolar, restoran və karaoke otaqlarına qədər hər layihədə fərdi yanaşma və keyfiyyətli materiallarla işləyirik.
           </p>
           <p className="about-text">
             Məqsədimiz sizin məkanınızda optimal səs izolyasiyası və akustik mühit yaratmaqdır. Keşif, layihələndirmə, material təchizatı və montajı öz əlimizdə həyata keçiririk.

@@ -28,7 +28,7 @@ function Hero() {
           <a href="#contact" onClick={closeMenu}>Əlaqə</a>
         </div>
         <div className="hero-brand">
-          <span className="hero-brand-title">BARIYER PM</span>
+          <span className="hero-brand-title">BARİYER PM</span>
           <span className="hero-brand-tagline">
             <span className="hero-brand-line" />
             <span>SOUND INSULATION</span>
@@ -43,7 +43,7 @@ function Hero() {
             <span className="hero-title-gradient">SİZİN ƏLİNİZDƏ!</span>
           </h1>
           <p className="hero-subtitle">
-            BARIYER PM ilə səs indi istədiyiniz kimi yankılanır.
+            BARİYER PM ilə səs indi istədiyiniz kimi yankılanır.
           </p>
         </div>
       </div>

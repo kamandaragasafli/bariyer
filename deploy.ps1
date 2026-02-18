@@ -19,7 +19,8 @@ git add .
 
 # Commit
 Write-Host "Committing..."
-git commit -m "Initial commit" 2>&1 | Out-Null
+$commitMessage = "Update: SEO improvements, footer redesign, social media hover effects, and brand name correction"
+git commit -m $commitMessage 2>&1 | Out-Null
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Commit failed or nothing to commit"
 }

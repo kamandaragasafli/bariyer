@@ -75,6 +75,55 @@
   color: var(--accent-purple-light);
 }
 
+.contact-info {
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-phone {
+  font-size: 17px;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-phone:hover {
+  color: var(--accent-purple-light);
+}
+
+.contact-social {
+  text-align: center;
+}
+
+.contact-social h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-facebook {
+  display: inline-block;
+  font-size: 17px;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-facebook:hover {
+  color: #1877F2;
+}
+
 .contact-cta {
   display: flex;
   align-items: center;

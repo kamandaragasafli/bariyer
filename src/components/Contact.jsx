@@ -21,6 +21,21 @@ function Contact() {
               ))}
             </ul>
           </div>
+          <div className="contact-info">
+            <h3>Telefon</h3>
+            <a href="tel:0552400295" className="contact-phone">0552400295</a>
+          </div>
+          <div className="contact-social">
+            <h3>Facebook</h3>
+            <a
+              href="https://www.facebook.com/share/1QuUhaBfHT/"
+              className="contact-facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook-da bizi izləyin
+            </a>
+          </div>
           <div className="contact-cta">
             <a
               href="https://wa.me/994502000549"

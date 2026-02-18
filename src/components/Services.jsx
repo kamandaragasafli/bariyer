@@ -4,25 +4,25 @@ import './Services.css'
 const galleryImages = [
   {
     src: '/room/home.jpg',
-    alt: 'Mənzildə səs izolyasiyası — BARIYER PM',
+    alt: 'Mənzildə səs izolyasiyası — BARİYER PM',
     title: 'Mənzil Səs İzolyasiyası',
     description: 'Qonşu səsi, tavan döyüntüsü və küçə səs-küyünün azaldılması. Yaşayış məkanınızda rahat və səssiz mühit.'
   },
   {
     src: '/room/restaurant.jpg',
-    alt: 'Restoranda akustik həll — BARIYER PM',
+    alt: 'Restoranda akustik həll — BARİYER PM',
     title: 'Restoran Akustikası',
     description: 'Yankının azaldılması və rahat söhbət mühiti. Müştərilər üçün keyfiyyətli səs balansı.'
   },
   {
     src: '/room/sinema.jpg',
-    alt: 'Sinema zalında akustik izolyasiya — BARIYER PM',
+    alt: 'Sinema zalında akustik izolyasiya — BARİYER PM',
     title: 'Sinema Zalı',
     description: 'Kino təcrübəsi üçün ideal akustik mühit. Səsin keyfiyyətli yayılması və xarici səs-küydən təcrid.'
   },
   {
     src: '/room/studio.jpg',
-    alt: 'Səs yazısı studiyası — BARIYER PM',
+    alt: 'Səs yazısı studiyası — BARİYER PM',
     title: 'Studio Yığılması',
     description: 'Musiqi, voice-over və podcast studioları üçün peşəkar səs izolyasiyası və akustik optimallaşdırma.'
   }

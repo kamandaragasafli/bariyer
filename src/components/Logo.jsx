@@ -35,7 +35,7 @@ function Logo({ className = '' }) {
 
         <line x1="50" y1="50" x2="65" y2="50" stroke="currentColor" strokeWidth="2" className="logo-line" />
         <text x="100" y="58" textAnchor="middle" className="logo-text-main">
-          BARIYER PM
+          BARİYER PM
         </text>
         <line x1="135" y1="50" x2="150" y2="50" stroke="currentColor" strokeWidth="2" className="logo-line" />
         <line x1="30" y1="68" x2="50" y2="68" stroke="currentColor" strokeWidth="1.5" className="logo-line" />

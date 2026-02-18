@@ -46,7 +46,7 @@ function Navbar() {
           <a href="#contact" onClick={(e) => { e.preventDefault(); handleNavClick('#contact') }}>Əlaqə</a>
         </div>
         <Link to="/" className="navbar-brand" onClick={() => setMenuOpen(false)}>
-          <span className="navbar-brand-title">BARIYER PM</span>
+          <span className="navbar-brand-title">BARİYER PM</span>
           <span className="navbar-brand-tagline">
             <span className="navbar-brand-line" />
             <span>--SOUND INSULATION--</span>
