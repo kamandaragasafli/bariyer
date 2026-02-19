@@ -57,14 +57,6 @@ function Footer() {
               <IconMail />
               <a href="mailto:info@bariyerpm.az">info@bariyerpm.az</a>
             </div>
-            <div className="footer-contact-item">
-              <IconMail />
-              <a href="mailto:rauf.r@bariyerpm.az">rauf.r@bariyerpm.az</a>
-            </div>
-            <div className="footer-contact-item">
-              <IconMail />
-              <a href="mailto:elmin.a@bariyerpm.az">elmin.a@bariyerpm.az</a>
-            </div>
           </div>
 
           <div className="footer-column">
